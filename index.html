@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33e6cc1e40.js" crossorigin="anonymous"></script>
+    <title>Live Code Editor</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5" style="color: #f83a3a;"></i> HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-css3-alt" style="color: #3ab2f8;"></i> CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-square-js" style="color: #d8f83a;"></i> JavaScript</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-circle-play" style="color: darkcyan;"></i> Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<!-- <body>
+    <div class="code-editor">
+        <div class="code">
+            <div class="html-code">
+                <h1><img src="images/html.png" alt="">HTML</h1>
+                <textarea></textarea>
+            </div>
+            <div class="css-code">
+                <h1><img src="images/CSS.png" alt="">CSS</h1>
+                <textarea></textarea>
+            </div>
+            <div class="js-code">
+                <h1><img src="images/js.png" alt="">JS</h1>
+                <textarea spellcheck="false"></textarea>
+            </div>
+        </div>
+        <iframe id="result"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body> -->
+</html>
